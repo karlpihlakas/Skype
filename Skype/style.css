@@ -1,0 +1,38 @@
+.centered {
+    padding: 0 5%;
+    max-width: calc(1600px + 10%);
+    margin: 0 auto;
+}
+
+footer {
+    background-color: #f2f2f2;
+}
+
+footer h6 {
+    color: #616161;
+    font-size: 15px;
+    font-weight: 700;
+}
+
+footer li {
+    padding: 8px 0;
+}
+
+footer a, footer span {
+    color: #616161;
+    text-decoration: none;
+    font-size: 11px;
+}
+
+footer a:hover {
+    color: #616161;
+    text-decoration: underline;
+}
+
+
+ img {
+    padding-right: 50px;
+}
+ li {
+    list-style-type: none;
+}
