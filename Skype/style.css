@@ -44,3 +44,25 @@ h2 {
 }
 
 .card {display:inline-block;}
+
+.centerdiv{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div1{
+    float: left;
+
+}
+
+.div2{
+    float: right;
+}
+
+.installing{
+    display: flex;
+     justify-content: center;
+    align-items: center;
+}
