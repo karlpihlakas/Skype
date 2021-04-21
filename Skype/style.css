@@ -46,23 +46,32 @@ h2 {
 .card {display:inline-block;}
 
 .centerdiv{
-    height: 100vh;
+    height: 10vh;
     display: flex;
     justify-content: center;
     align-items: center;
+    
 }
-
-.div1{
-    float: left;
-
-}
-
-.div2{
-    float: right;
-}
-
 .installing{
     display: flex;
      justify-content: center;
     align-items: center;
+}
+
+.trySkype{
+    margin-top: 70px;
+}
+
+.button .btn-primary, .btn-primary:hover, .btn-primary:active, .btn-primary:visited {
+    background-color: #0078ca !important;
+    margin-left: 44.5%;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+
+.div2{
+    margin-left: 20px;
 }
