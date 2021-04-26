@@ -16,7 +16,7 @@
     <header> 
         <nav class="navbar navbar-expand-lg navbar-light bg-light">
             <div class="container-fluid">
-              <a class="navbar-brand" href="#"><img src="./img/re1mu3b.png"></a>
+              <a class="navbar-brand" href="#"><img src="./img/re1mu3b.png" class="navimg d-inline-block align-top"></a>
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
               </button>
@@ -41,9 +41,18 @@
                     <a class="nav-link" href="#">Funktsioonid</a>
                   </li>
                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                      Tooted
-                    </a>
+                    <button class="btn btn-secondary" type="button" id="dropdownMenuButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      <a class="nav-link dropdown-toggle"  href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="true">
+                        Tooted
+                      </a>
+                    </button>
+                    <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+                      <a class="dropdown-item" href="#">Koosolek</a>
+                      <a class="dropdown-item" href="#">Skype Manager</a>
+                      <a class="dropdown-item" href="#">Skype ja Alexa</a>
+                      <a class="dropdown-item" href="#">Skype sisuloojatele</a>
+                      <a class="dropdown-item" href="#">Skype'i ärirakendus</a>
+                    </div>
                     <li class="nav-item dropdown">
                         <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                           Kasutajaabi
